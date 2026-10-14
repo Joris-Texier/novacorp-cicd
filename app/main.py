@@ -22,6 +22,3 @@ def config():
         "environment": os.getenv("APP_ENV", "development"),
         "database_host": os.getenv("DB_HOST", "not-configured")
     }
-
-def casse(:
-    pass
