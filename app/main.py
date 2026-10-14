@@ -8,7 +8,7 @@ app = FastAPI()
 def root():
     return {
         "application": "NovaCorp API",
-        "version": "1.1.0",
+        "version": "1.2.0",
         "hostname": socket.gethostname()
     }
 
